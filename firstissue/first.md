@@ -1,3 +1,6 @@
+# First troubles with data and R
+## or how to fix a plot using ggplot2 library and proper methodology steps
+
 Few weeks ago, I started learning R, so I also started using it to process and analyze data. Everything was smooth until I decided to do a project on dataset analyzed previously. Suddenly, the same code was giving me different results. What happened?
 
 Data types happened, but let's start from the beginning.
