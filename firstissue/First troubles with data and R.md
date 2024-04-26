@@ -37,6 +37,7 @@ ylab("deaths to births")
 ```
 
 The graph appeared:
+
 ![plot with visible graph but still messy scale on x axis](./img/plotdrawn.png)
 
 This was only a partial win because my scale was still really messy. I started browsing documentation for scale adjusting functions, and I found `scale_x_date()`, which looked like the answer my troubles. It didn't work. I tried many configuration of parameters, and all of the were giving me very long error messages. I started browsing StackOverflow, and all the hints lead back to `scale_x_date()`, so I realized that my problem lays somewhere else. I couldn't understand why guided version of the project gave different results as well. Something had to be be different either in data processing or in data itself. Then, I decided to **read the error message carefully**. I know, I should do it right away... Something something `chr` class and `date` class, and a lot of trackbacks. Of course... data types! I've looked at my data closer:
@@ -65,6 +66,7 @@ $ proportion_deaths <dbl> 0.145669291, 0.075313808, 0.043321300, 0.015686275, â€
 ```
 
 My plot finally looked like I wanted:
+
 ![plot with all desired features: visible graph and scale in years](./img/goodplot.png)
 
 Success!
