@@ -16,7 +16,7 @@ ylab("deaths to births")
 
 It didn't work! Or rather, it worked, but not the way I wanted. Instead of a nice plot like previously:
 
-![(./img/niceplot.png)]
+![properly drawn plot](./img/niceplot.png)
 I've got this disaster:
 
 ![[img/emptyplot.png]]
