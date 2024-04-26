@@ -1,13 +1,13 @@
 # First troubles with data and R
 ## or how to fix a plot using ggplot2 library and proper methodology steps
 
-Few weeks ago, I started learning R, so I also started using it to process and analyze data. Everything was smooth until I decided to do a project on dataset analyzed previously. Suddenly, the same code was giving me different results. What happened?
+Few weeks ago, I started learning R, so I also started using it to process and analyze data. Everything was smooth until I decided to do a project using the dataset analyzed previously. Suddenly, the same code was giving me different results. What happened?
 
 Data types happened, but let's start from the beginning.
 
-I need a structure in my learning, so I chose DataCamp to be my guide at the beginning. They offer courses and projects of various degrees of complexity, and beginner projects can be done in a guided and unguided mode. My first guided project went smooth, and troubles started when I wanted to repeat it in the unguided mode.
+I need a structure in my learning, so I chose DataCamp to be my guide at the beginning. They offer courses and projects of various degrees of complexity, and beginner projects can be done in a guided and unguided mode. My first guided project went smoothly, and troubles started when I wanted to repeat it in the unguided mode.
 
-I was working with the Dr. Semmelweis' dataset, in which he collected data about deaths during childbirth in two clinics yearly, and monthly in one of them. I was supposed to plot the ratio of deaths to births, and this is when my troubles begun.
+I was working with the Dr. Semmelweis' dataset, in which he collected data about deaths during childbirth in two clinics yearly, and monthly in one of them. I was supposed to plot the ratio of deaths to births, and this is when my troubles began.
 
 I tried to use the same code as in the guided version of the project:
 ```R
